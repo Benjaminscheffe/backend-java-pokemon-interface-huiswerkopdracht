@@ -1,0 +1,16 @@
+import java.util.List;
+
+public class PokemonGymOwner extends PokemonTrainer {
+    String town;
+    public PokemonGymOwner(String name,String town, List<Pokemon> pokemons) {
+        super(name, pokemons);
+    }
+
+    public String getTown() {
+        return town;
+    }
+
+    public void setTown(String town) {
+        this.town = town;
+    }
+}
